@@ -1,0 +1,60 @@
+body {
+    margin: 0px;
+    width: 100%;
+    height: 1000vh;
+    background-color: #ff5cff;
+    position: relative;
+    overflow: scroll;
+}
+
+
+.contenitore {
+  
+    background-image: url(1.gif);
+    background-repeat: round;
+    background-size: cover;
+    width:100vw;
+    height: 100vh;
+    top:0px;
+    align-content: center;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.elementi {
+    z-index: 0;
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.imageOne {
+    z-index: 0;
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(scritte_animate.gif);
+    background-repeat: round;
+    background-size: 100%;
+    position: fixed;
+}
+
+
+.imageTwo {
+    z-index: 1;
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(cavallobianco_00.gif);
+    background-repeat: round;
+    background-size: 100%;
+    position: fixed;
+}
+
+.synth {
+    z-index: 2;
+    background-color: aquamarine;
+    height: auto;
+    width: 100vw;
+}
